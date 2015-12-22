@@ -18,6 +18,7 @@
 		51BF800B1C262414007CD140 /* song.wav in Resources */ = {isa = PBXBuildFile; fileRef = 51BF800A1C262414007CD140 /* song.wav */; };
 		51BF800D1C281BB2007CD140 /* starwars.wav in Resources */ = {isa = PBXBuildFile; fileRef = 51BF800C1C281BB2007CD140 /* starwars.wav */; };
 		51BF800F1C2A08C2007CD140 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 51BF800E1C2A08C2007CD140 /* README.md */; };
+		51BF80111C2A095E007CD140 /* audioTesting.html in Resources */ = {isa = PBXBuildFile; fileRef = 51BF80101C2A095E007CD140 /* audioTesting.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		51BF800A1C262414007CD140 /* song.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = song.wav; sourceTree = "<group>"; };
 		51BF800C1C281BB2007CD140 /* starwars.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = starwars.wav; sourceTree = "<group>"; };
 		51BF800E1C2A08C2007CD140 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		51BF80101C2A095E007CD140 /* audioTesting.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = audioTesting.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 		51B30E3C1C221CCD008DBE86 = {
 			isa = PBXGroup;
 			children = (
+				51BF80101C2A095E007CD140 /* audioTesting.html */,
 				51BF800E1C2A08C2007CD140 /* README.md */,
 				51B30E471C221CCD008DBE86 /* MusicAnimation */,
 				51B30E5F1C221CCD008DBE86 /* MusicAnimationTests */,
@@ -246,6 +249,7 @@
 			files = (
 				51B30E561C221CCD008DBE86 /* LaunchScreen.storyboard in Resources */,
 				51B30E531C221CCD008DBE86 /* Assets.xcassets in Resources */,
+				51BF80111C2A095E007CD140 /* audioTesting.html in Resources */,
 				51BF800D1C281BB2007CD140 /* starwars.wav in Resources */,
 				51B30E4E1C221CCD008DBE86 /* Main.storyboard in Resources */,
 				51BF800B1C262414007CD140 /* song.wav in Resources */,
