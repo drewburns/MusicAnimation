@@ -17,6 +17,7 @@
 		51B30E7C1C222F11008DBE86 /* PlayingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B30E7B1C222F11008DBE86 /* PlayingController.swift */; };
 		51BF800B1C262414007CD140 /* song.wav in Resources */ = {isa = PBXBuildFile; fileRef = 51BF800A1C262414007CD140 /* song.wav */; };
 		51BF800D1C281BB2007CD140 /* starwars.wav in Resources */ = {isa = PBXBuildFile; fileRef = 51BF800C1C281BB2007CD140 /* starwars.wav */; };
+		51BF800F1C2A08C2007CD140 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 51BF800E1C2A08C2007CD140 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		51B30E7B1C222F11008DBE86 /* PlayingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlayingController.swift; path = ../PlayingController.swift; sourceTree = "<group>"; };
 		51BF800A1C262414007CD140 /* song.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = song.wav; sourceTree = "<group>"; };
 		51BF800C1C281BB2007CD140 /* starwars.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = starwars.wav; sourceTree = "<group>"; };
+		51BF800E1C2A08C2007CD140 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 		51B30E3C1C221CCD008DBE86 = {
 			isa = PBXGroup;
 			children = (
+				51BF800E1C2A08C2007CD140 /* README.md */,
 				51B30E471C221CCD008DBE86 /* MusicAnimation */,
 				51B30E5F1C221CCD008DBE86 /* MusicAnimationTests */,
 				51B30E6A1C221CCD008DBE86 /* MusicAnimationUITests */,
@@ -272,6 +275,7 @@
 			files = (
 				51B30E491C221CCD008DBE86 /* AppDelegate.swift in Sources */,
 				51B30E511C221CCD008DBE86 /* MusicAnimation.xcdatamodeld in Sources */,
+				51BF800F1C2A08C2007CD140 /* README.md in Sources */,
 				51B30E7C1C222F11008DBE86 /* PlayingController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
