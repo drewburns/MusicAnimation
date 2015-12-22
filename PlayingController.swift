@@ -62,7 +62,7 @@ class PlayingController: UIViewController, UIDynamicAnimatorDelegate, AVAudioPla
 //        self.view.addSubview(dropView)
 
         
-//        let _ = NSTimer.scheduledTimerWithTimeInterval(0.25, target: self, selector: "update", userInfo: nil, repeats: true)
+        let _ = NSTimer.scheduledTimerWithTimeInterval(0.25, target: self, selector: "update", userInfo: nil, repeats: true)
         let song = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("starwars", ofType: "wav")!)
 
         do {
