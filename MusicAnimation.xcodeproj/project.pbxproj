@@ -8,13 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		51B30E491C221CCD008DBE86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B30E481C221CCD008DBE86 /* AppDelegate.swift */; };
-		51B30E4B1C221CCD008DBE86 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B30E4A1C221CCD008DBE86 /* ViewController.swift */; };
 		51B30E4E1C221CCD008DBE86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51B30E4C1C221CCD008DBE86 /* Main.storyboard */; };
 		51B30E511C221CCD008DBE86 /* MusicAnimation.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 51B30E4F1C221CCD008DBE86 /* MusicAnimation.xcdatamodeld */; };
 		51B30E531C221CCD008DBE86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51B30E521C221CCD008DBE86 /* Assets.xcassets */; };
 		51B30E561C221CCD008DBE86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51B30E541C221CCD008DBE86 /* LaunchScreen.storyboard */; };
 		51B30E611C221CCD008DBE86 /* MusicAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B30E601C221CCD008DBE86 /* MusicAnimationTests.swift */; };
 		51B30E6C1C221CCD008DBE86 /* MusicAnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B30E6B1C221CCD008DBE86 /* MusicAnimationUITests.swift */; };
+		51B30E7C1C222F11008DBE86 /* PlayingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B30E7B1C222F11008DBE86 /* PlayingController.swift */; };
+		51BF800B1C262414007CD140 /* song.wav in Resources */ = {isa = PBXBuildFile; fileRef = 51BF800A1C262414007CD140 /* song.wav */; };
+		51BF800D1C281BB2007CD140 /* starwars.wav in Resources */ = {isa = PBXBuildFile; fileRef = 51BF800C1C281BB2007CD140 /* starwars.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +39,6 @@
 /* Begin PBXFileReference section */
 		51B30E451C221CCD008DBE86 /* MusicAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51B30E481C221CCD008DBE86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		51B30E4A1C221CCD008DBE86 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		51B30E4D1C221CCD008DBE86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		51B30E501C221CCD008DBE86 /* MusicAnimation.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MusicAnimation.xcdatamodel; sourceTree = "<group>"; };
 		51B30E521C221CCD008DBE86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +50,9 @@
 		51B30E671C221CCD008DBE86 /* MusicAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		51B30E6B1C221CCD008DBE86 /* MusicAnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicAnimationUITests.swift; sourceTree = "<group>"; };
 		51B30E6D1C221CCD008DBE86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51B30E7B1C222F11008DBE86 /* PlayingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlayingController.swift; path = ../PlayingController.swift; sourceTree = "<group>"; };
+		51BF800A1C262414007CD140 /* song.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = song.wav; sourceTree = "<group>"; };
+		51BF800C1C281BB2007CD140 /* starwars.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = starwars.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +103,12 @@
 		51B30E471C221CCD008DBE86 /* MusicAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				51B30E7B1C222F11008DBE86 /* PlayingController.swift */,
 				51B30E481C221CCD008DBE86 /* AppDelegate.swift */,
-				51B30E4A1C221CCD008DBE86 /* ViewController.swift */,
 				51B30E4C1C221CCD008DBE86 /* Main.storyboard */,
 				51B30E521C221CCD008DBE86 /* Assets.xcassets */,
+				51BF800A1C262414007CD140 /* song.wav */,
+				51BF800C1C281BB2007CD140 /* starwars.wav */,
 				51B30E541C221CCD008DBE86 /* LaunchScreen.storyboard */,
 				51B30E571C221CCD008DBE86 /* Info.plist */,
 				51B30E4F1C221CCD008DBE86 /* MusicAnimation.xcdatamodeld */,
@@ -237,7 +243,9 @@
 			files = (
 				51B30E561C221CCD008DBE86 /* LaunchScreen.storyboard in Resources */,
 				51B30E531C221CCD008DBE86 /* Assets.xcassets in Resources */,
+				51BF800D1C281BB2007CD140 /* starwars.wav in Resources */,
 				51B30E4E1C221CCD008DBE86 /* Main.storyboard in Resources */,
+				51BF800B1C262414007CD140 /* song.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +270,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51B30E4B1C221CCD008DBE86 /* ViewController.swift in Sources */,
 				51B30E491C221CCD008DBE86 /* AppDelegate.swift in Sources */,
 				51B30E511C221CCD008DBE86 /* MusicAnimation.xcdatamodeld in Sources */,
+				51B30E7C1C222F11008DBE86 /* PlayingController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -491,6 +499,7 @@
 				51B30E721C221CCD008DBE86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		51B30E731C221CCD008DBE86 /* Build configuration list for PBXNativeTarget "MusicAnimationTests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +508,7 @@
 				51B30E751C221CCD008DBE86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		51B30E761C221CCD008DBE86 /* Build configuration list for PBXNativeTarget "MusicAnimationUITests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +517,7 @@
 				51B30E781C221CCD008DBE86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
