@@ -44,7 +44,7 @@ class PlayingController: UIViewController, UIDynamicAnimatorDelegate, AVAudioPla
     
     override func viewDidLoad() {
         super.viewDidLoad()
-//        setSessionPlayerOn()
+        setSessionPlayerOn()
         
 //        renderCallback(UnsafeMutablePointer<AudioBufferList>)
 

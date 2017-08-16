@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		51B30E491C221CCD008DBE86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B30E481C221CCD008DBE86 /* AppDelegate.swift */; };
 		51B30E4E1C221CCD008DBE86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51B30E4C1C221CCD008DBE86 /* Main.storyboard */; };
-		51B30E511C221CCD008DBE86 /* MusicAnimation.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 51B30E4F1C221CCD008DBE86 /* MusicAnimation.xcdatamodeld */; };
 		51B30E531C221CCD008DBE86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51B30E521C221CCD008DBE86 /* Assets.xcassets */; };
 		51B30E561C221CCD008DBE86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51B30E541C221CCD008DBE86 /* LaunchScreen.storyboard */; };
 		51B30E611C221CCD008DBE86 /* MusicAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B30E601C221CCD008DBE86 /* MusicAnimationTests.swift */; };
@@ -42,7 +41,6 @@
 		51B30E451C221CCD008DBE86 /* MusicAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51B30E481C221CCD008DBE86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51B30E4D1C221CCD008DBE86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		51B30E501C221CCD008DBE86 /* MusicAnimation.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MusicAnimation.xcdatamodel; sourceTree = "<group>"; };
 		51B30E521C221CCD008DBE86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51B30E551C221CCD008DBE86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		51B30E571C221CCD008DBE86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -117,7 +115,6 @@
 				51BF800C1C281BB2007CD140 /* starwars.wav */,
 				51B30E541C221CCD008DBE86 /* LaunchScreen.storyboard */,
 				51B30E571C221CCD008DBE86 /* Info.plist */,
-				51B30E4F1C221CCD008DBE86 /* MusicAnimation.xcdatamodeld */,
 			);
 			path = MusicAnimation;
 			sourceTree = "<group>";
@@ -278,7 +275,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				51B30E491C221CCD008DBE86 /* AppDelegate.swift in Sources */,
-				51B30E511C221CCD008DBE86 /* MusicAnimation.xcdatamodeld in Sources */,
 				51BF800F1C2A08C2007CD140 /* README.md in Sources */,
 				51B30E7C1C222F11008DBE86 /* PlayingController.swift in Sources */,
 			);
@@ -528,19 +524,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		51B30E4F1C221CCD008DBE86 /* MusicAnimation.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				51B30E501C221CCD008DBE86 /* MusicAnimation.xcdatamodel */,
-			);
-			currentVersion = 51B30E501C221CCD008DBE86 /* MusicAnimation.xcdatamodel */;
-			path = MusicAnimation.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 51B30E3D1C221CCD008DBE86 /* Project object */;
 }
